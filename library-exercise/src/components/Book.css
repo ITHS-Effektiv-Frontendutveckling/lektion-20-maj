@@ -1,0 +1,7 @@
+.book {
+  width: 14rem;
+  height: 18rem;
+  background: blueviolet;
+  border-radius: 2px;
+  position: relative;
+}
