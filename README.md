@@ -7,7 +7,7 @@ skriver in en url som inte matchas mot någon av dina "routes".
 
 Installera React router med `npm install react-router-dom --save`
 
-2. Testa att lägg till React Router på childrens library - övningen.
+2. Testa att lägga till React Router på childrens library - övningen.
 
 
 ## Artiklar
