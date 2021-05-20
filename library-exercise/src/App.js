@@ -16,14 +16,14 @@ function App() {
   const [currentBook, setCurrentBook] = useState('');
 
   return (
-    <section className="App">
+    <section className="library">
       <div className="wrapper">
-        <section className="books">
         { currentBook ? <BookInfo book={ currentBook } close={ setCurrentBook } /> :
-          books.map((book) => {
-            return <Book book={ book } chooseBook={ setCurrentBook } key={ book.id } />
-          })}
-        </section>
+          <section className="books">
+              { books.map((book) => {
+                return <Book book={ book } chooseBook={ setCurrentBook } key={ book.id } />
+              })}
+          </section> }
       </div>
     </section>
   );

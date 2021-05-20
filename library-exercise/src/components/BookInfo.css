@@ -89,6 +89,12 @@
   height: 3rem;
   background: rgba(255,255,255,.2);
   color: rgba(0,0,0,0.8);
-  text-decoration: none;
   border-radius: 999rem;
+  border: none;
+}
+
+.back:hover {
+  cursor: pointer;
+  background: rgba(255,255,255,.4);
+  color: rgba(0,0,0,1);
 }
